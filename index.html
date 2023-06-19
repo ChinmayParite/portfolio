@@ -8,7 +8,7 @@
     <title>My Portfolio</title>
 
     <!-- box icons-->
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css" rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
 
 
     <!-- css-->
@@ -376,26 +376,24 @@ span{
 <body>
 
     <!-- header design -->
-     <header class="header">
+    <header class="header">
         <a href="#" class="logo">Portfolio</a>
-
-        <i class='bx bx-menu' id="menu"></i>
-
+        <i class="bx bx-menu" id="menu-icon"></i>
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-
-     </header>
+    </header>
+    
 
      <!-- home section-->
     <section class="home" id="home">
         <div class="home-content">
-            <h3>Hello, I'm </h3>
+            <h3>Hello, It's Me </h3>
             <h1>Chinmay Parite</h1>
             <h3>And I'm an <span>AI & ML specialist</span></h3>
             <p>
@@ -425,7 +423,7 @@ span{
 
         <div class="about-content">
             <h2 class="heading"> About<span> Me</span></h2>
-            <h3> AI & ML specialist</h3>
+            <h3> AI & ML specialist!</h3>
                 <p>
                     I'm currently pursuing a BTech Degree, I'm excited to gain hands-on experience with developing algorithms, working with datasets, and creating intelligent systems.
                     Through my studies, I hope to gain a deep understanding of the underlying principles of these technologies and apply them to create innovative solutions that can benefit humanity.
@@ -441,27 +439,56 @@ span{
 
         <div class="projects-container">
             <div class="projects-box">
-                    <h3>Fusion 360</h3>
                     <i class='bx bx-shape-triangle'></i>
+                    <h3>Fusion 360</h3>
                     <p>
-                        Designed the infamous Ironman's Arc reactor as one of my project in fusion 360
+                    Designed the infamous Ironman's Arc reactor as one of my project in fusion 360
                     </p>
-                    <a href="#" class="btn">Read More</a> 
+                    <a href="https://a360.co/3IB66C6" class="btn">Read More</a> 
             </div>
-        </div>
 
-        <div class="projects-container">
             <div class="projects-box">
-                    <h3>Bio-Fabric</h3>
-                    <i class='bx bx-closet'></i>
-                    <p>
-                        Made a bio-fabric in chemistry lab in college
-                    </p>
-                    <a href="#" class="btn">Read More</a> 
-            </div>
+                <i class='bx bx-closet'></i>
+                <h3>Bio-Fabric</h3>
+                <p>
+                Made a bio-fabric as a project in first year of my B.Tech engineering
+                 in chemistry lab
+                </p>
+                <a href="#" class="btn">Read More</a> 
+        
         </div>
+  
     </section>
 
+    <!-- contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span> Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" values="Send Message" class="btn">
+             
+        </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Chinmay Parite | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
      <!-- custom js -->
      <script src="js/script.js"></script>
