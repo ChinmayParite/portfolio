@@ -271,6 +271,10 @@ span{
         font-family: 'Montserrat', verdana;
         }
 
+    .button:hover{
+    box-shadow: none;
+}
+
 
 .contact {
   display: flex;
