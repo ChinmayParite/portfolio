@@ -241,7 +241,7 @@ span{
  }
 
 .button {
-      background-color: skyblue;
+      background-color:  blue;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -253,7 +253,7 @@ span{
       cursor: pointer;
       border-radius: 12px;
     }
- 
+
     .container {
         position: relative;
         text-align: center;
@@ -270,6 +270,7 @@ span{
         font-style: italic;
         font-family: 'Montserrat', verdana;
         }
+
 
 .contact {
   display: flex;
