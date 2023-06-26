@@ -240,7 +240,7 @@ span{
     margin-bottom: 3rem;
  }
 
- .button {
+ .btn {
       background-color:  blue;
       border: none;
       color: white;
@@ -279,7 +279,7 @@ span{
   text-align: center;
 }
 
-.contact .button {
+.contact .btn {
   margin-top: 2rem;
 }
 
