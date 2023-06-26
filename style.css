@@ -241,7 +241,7 @@ span{
  }
 
 .button {
-      background-color:  skyblue;
+      background-color: var(--main-color);
       border: none;
       color: white;
       padding: 15px 32px;
