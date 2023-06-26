@@ -241,7 +241,7 @@ span{
  }
 
 .btn {
-      background-color: cyan;
+      background-color: skyblue;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -254,7 +254,6 @@ span{
       border-radius: 12px;
     }
  
-
     .container {
         position: relative;
         text-align: center;
