@@ -214,50 +214,14 @@
      <!-- custom js -->
      <script>
 
-function openNewTab() {
-      window.open("https://a360.co/3IB66C6", "_blank");
-     // window.open("https://chinmayparite.github.io/Services/", "_blank");
-      //window.open("https://chinmayparite.github.io/Services/", "_blank");
-      //window.open("https://chinmayparite.github.io/Services/", "_blank");
-    }
-    
-         
-        // Toggle icon navbar
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+function openNewTab(){window.open("https://a360.co/3IB66C","_blank"),window.open("https://death-rider2468.github.io/DT_Project/","_flank"),window.open("https://a360.co/3IB66C","_spank")}let sections=document.querySelectorAll("section"),navlinks=document.querySelectorAll("header nav a");window.addEventListener("scroll",()=>{let e="";sections.forEach(t=>{let s=t.offsetTop-150,o=t.offsetHeight;pageYOffset>=s&&pageYOffset<s+o&&(e=t.getAttribute("id"))}),navlinks.forEach(t=>{t.classList.remove("active"),t.getAttribute("href").slice(1)===e&&t.classList.add("active")});document.querySelector("header").classList.toggle("sticky",window.scrollY>100)});
+JavaScript Minifier Tool Documentation
+The API has changed, to see more please click here
+To minify/compress your JavaScript, perform a POST request to
 
-menuIcon.onclick = () => {
-   menuIcon.classList.toggle('bx-x');
-   navbar.classList.toggle('active');
-};
+API https://www.toptal.com/developers/javascript-minifier/api/raw
+with the input parameter set to the JavaScript you want to minify.
 
-
-// Scroll sections active link
-let sections = document.querySelectorAll('section');
-let navlinks = document.querySelectorAll('header nav a');
-
-window.addEventListener('scroll', () => {
-   let currentSection = '';
-
-   sections.forEach((section) => {
-       const sectionTop = section.offsetTop - 150;
-       const sectionHeight = section.offsetHeight;
-       if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
-           currentSection = section.getAttribute('id');
-       }
-   });
-
-   navlinks.forEach((navlink) => {
-       navlink.classList.remove('active');
-       if (navlink.getAttribute('href').slice(1) === currentSection) {
-           navlink.classList.add('active');
-       }
-   });
-
-   // Sticky navbar
-   let header = document.querySelector('header');
-   header.classList.toggle('sticky', window.scrollY > 100);
-});
 
     </script>
 </body>
