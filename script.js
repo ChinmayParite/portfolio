@@ -12,6 +12,7 @@ function openNewTab() {
       window.open("https://a360.co/3IB66C", "_blank");
       window.open("https://death-rider2468.github.io/DT_Project/", "_flank");
       window.open("http://localhost:8888/notebooks/AI_1/AI_PRO.ipynb", "_spank");
+        window.open("https://chinmayparite.github.io/dream-home-makers/", "_dank") 
     }
 
 
